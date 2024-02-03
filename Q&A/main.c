@@ -1,8 +1,9 @@
-
 #include "game.h"
 
 
+ 
 int main(){
+    int Choose=7;
 
     int cur_hints=0, category =0, round=0, ans, score=0, ch;
 
@@ -17,6 +18,7 @@ int main(){
     printf("\n\t\t________________________________________\n");
     printf("\n\t\t   BECOME A MILLIONAIRE!!!!!!!!!!!    ") ;
     printf("\n\t\t________________________________________\n\n");
+    ret_here:
     printf("\t\t    Choose a Category number for Questions.. :)\n");
     printf("\t\t\t1 - %s\n", "Math");
     printf("\t\t\t2 - %s\n", "Sport");
@@ -29,7 +31,8 @@ int main(){
     if(RIGHT != category_check(category))
     {
         printf("Enter a valid category number !\n");
-        scanf("%d", category);
+        goto ret_here;
+        // scanf("%d", &category);
     }
 
     int round_cntr=0;
@@ -42,7 +45,7 @@ int main(){
             display_question(idx, category);
             display_answers(idx, category);
             scanf("%d", &ans);
-            if(RIGHT == check(idx, category, ans))
+            if(RIGHT == answer_check(idx, category, ans))
             {
                 printf("Correct..!!\n");
                 score++;
@@ -62,7 +65,7 @@ int main(){
                         display_answers(idx, category);
                         printf("\t\t\tNow, Enter the answer :)\n");
                         scanf("%d", &ans);
-                        if(RIGHT == check(idx, category, ans))
+                        if(RIGHT == answer_check(idx, category, ans))
                         {
                             score++;
                         }

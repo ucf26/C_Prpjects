@@ -2,7 +2,7 @@
 
 ques_t math[20]={
     {.question="the sin(30) is", .answer[0]="1", .answer[1]="0.5", .answer[2]="0", .answer[3]="undefined", .correct_answer=2, .hint="its the ratio of oppist length to the hypotnth"},
-    {.question="If a centimetre equates to roughly 0.4 inches, how many inches is 10cm? ", .answer[0]="2.5", .answer[1]="4", .answer[2]="3", .answer[3]="1", .correct_answer=2, .hint="Two extremes in two middles"},
+    {.question="If a centimetre equates to roughly 0.4 inches, how many inches is 10cm? ", .answer[0]="2.5", .answer[1]="4", .answer[2]="3", .answer[3]="1", .correct_answer=2, .hint="the 5 cm has 2 inchs"},
     {.question=" Find the missing terms in multiple of 3: 3, 6, 9, __, 15", .answer[0]="11", .answer[1]="10", .answer[2]="12", .answer[3]="13", .correct_answer=3, .hint="find the pattern :)"},
     {.question="50 times of 8 is equal to", .answer[0]="80", .answer[1]="800", .answer[2]="400", .answer[3]="4000", .correct_answer=3, .hint="50 * 8 !!"},
     {.question="Determine the median of the following numbers: 2, 4, 5, 7, 9", .answer[0]="5", .answer[1]="10", .answer[2]="0", .answer[3]="1", .correct_answer=1, .hint="the magntuid of a complex number is the same as measuring a hyptones in a right angel tringle"},
@@ -15,7 +15,7 @@ ques_t math[20]={
     {.question="in coding does charrchters have the same number of bits as intigers",.answer[0]="yes", .answer[1]="no", .answer[2]="0", .answer[3]="undefined", .correct_answer=2,.hint="intiger has 4 bits"},
     {.question="Adding the numbers between 1 to 100 consecutively (1+2+3+4+…) gives you what final answer? ",.answer[0]="4851", .answer[1]="4950", .answer[2]="4753", .answer[3]="5050", .correct_answer=2,.hint="n*(n+1)/2"},
     {.question="what is the diffreence btween the sum of two supplementary and two complementary angle",.answer[0]="270", .answer[1]="90", .answer[2]="180", .answer[3]="360", .correct_answer=2 ,.hint="the sum of two complementary angle is 90"},
-    {.question="Who is the Father of Mathematics?",.answer[0]="Archimedes", .answer[1]="Albert Einstein", .answer[2]="Leonhard Euler", .answer[3]="Eratosthenes", .correct_answer = 1,.hint="the same as measuring in a right angel tringle"},
+    {.question="Who is the Father of Mathematics?",.answer[0]="Archimedes", .answer[1]="Albert Einstein", .answer[2]="Leonhard Euler", .answer[3]="Eratosthenes", .correct_answer = 1,.hint="he was from anciant greek"},
     {.question="Who developed an easy method to find out all the Prime Numbers?",.answer[0]="Archimedes", .answer[1]="Albert Einstein", .answer[2]="Leonhard Euler", .answer[3]="Eratosthenes", .correct_answer = 4 , .hint="&& is and gate"},
     {.question="the cos(60) is",.answer[0]="1", .answer[1]="0.5", .answer[2]="undefined", .answer[3]="0.5 * ((3)^(1/3)) ", .correct_answer=2,.hint="equel to sin(30) and there sum is 1"},
     {.question="what is the sum of two supplemntary angle",.answer[0]="270", .answer[1]="90", .answer[2]="180", .answer[3]="360", .correct_answer=3,.hint="straghit angle"},
@@ -72,26 +72,26 @@ ques_t science[20]={
 
 
 ques_t history[20]={
-    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=0, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
-    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=1, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
-    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=2, .hint="He ruled from 744 to 750 CE."},
-    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=0, .hint="He founded the Hanafi school of thought."},
-    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=0, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
-    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=1, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
-    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=2, .hint="He ruled from 744 to 750 CE."},
-    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=0, .hint="He founded the Hanafi school of thought."},
-    {.question="Who was the first Muslim woman to lead an army in the history of Islam?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Zainab bint Ali", .correct_answer=0, .hint="She played a significant role in the Battle of Jamal."},
-    {.question="Which caliph is known for compiling the Quran into a single written manuscript?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=2, .hint="This compilation was done to preserve the authenticity of the Quranic text."},
-    {.question="Who was the first Muslim explorer to reach the coast of China?", .answer[0]="Ibn Battuta", .answer[1]="Ibn Jubayr", .answer[2]="Zheng He", .answer[3]="Ibn Fadlan", .correct_answer=2, .hint="He led several naval expeditions during the 15th century."},
-    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=0, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
-    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=1, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
-    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=2, .hint="He ruled from 744 to 750 CE."},
-    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=0, .hint="He founded the Hanafi school of thought."},
-    {.question="Who was the first Muslim woman to lead an army in the history of Islam?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Zainab bint Ali", .correct_answer=0, .hint="She played a significant role in the Battle of Jamal."},
-    {.question="Which caliph is known for compiling the Quran into a single written manuscript?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=2, .hint="This compilation was done to preserve the authenticity of the Quranic text."},
-    {.question="Who was the first Muslim explorer to reach the coast of China?", .answer[0]="Ibn Battuta", .answer[1]="Ibn Jubayr", .answer[2]="Zheng He", .answer[3]="Ibn Fadlan", .correct_answer=2, .hint="He led several naval expeditions during the 15th century."},
-    {.question="Which battle marked the end of the Rashidun Caliphate and the beginning of the Umayyad Caliphate?", .answer[0]="Battle of Siffin", .answer[1]="Battle of Yarmouk", .answer[2]="Battle of Karbala", .answer[3]="Battle of Nahrawan", .correct_answer=0, .hint="It took place in 657 CE."},
-    {.question="Who was the first female scholar of Hadith in Islamic history?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Rabia al-Adawiyya", .correct_answer=0, .hint="She is known for her extensive knowledge and narrations of Hadith."},
+    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=1, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
+    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=2, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
+    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=3, .hint="He ruled from 744 to 750 CE."},
+    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=1, .hint="He founded the Hanafi school of thought."},
+    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=1, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
+    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=2, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
+    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=3, .hint="He ruled from 744 to 750 CE."},
+    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=1, .hint="He founded the Hanafi school of thought."},
+    {.question="Who was the first Muslim woman to lead an army in the history of Islam?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Zainab bint Ali", .correct_answer=1, .hint="She played a significant role in the Battle of Jamal."},
+    {.question="Which caliph is known for compiling the Quran into a single written manuscript?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=3, .hint="This compilation was done to preserve the authenticity of the Quranic text."},
+    {.question="Who was the first Muslim explorer to reach the coast of China?", .answer[0]="Ibn Battuta", .answer[1]="Ibn Jubayr", .answer[2]="Zheng He", .answer[3]="Ibn Fadlan", .correct_answer=3, .hint="He led several naval expeditions during the 15th century."},
+    {.question="Who was the first caliph of Islam?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=1, .hint="He was a close companion of Prophet Muhammad (peace be upon him)."},
+    {.question="In which year did the Battle of Badr take place?", .answer[0]="622 CE", .answer[1]="624 CE", .answer[2]="627 CE", .answer[3]="630 CE", .correct_answer=2, .hint="It was a significant battle between the Muslims of Medina and the Quraysh of Mecca."},
+    {.question="Who was the last Umayyad caliph?", .answer[0]="Muawiyah II", .answer[1]="Yazid III", .answer[2]="Marwan II", .answer[3]="Abd al-Rahman III", .correct_answer=3, .hint="He ruled from 744 to 750 CE."},
+    {.question="Which Muslim scholar is known as the 'Father of Islamic Jurisprudence'?", .answer[0]="Imam Abu Hanifa", .answer[1]="Imam Malik", .answer[2]="Imam Shafi'i", .answer[3]="Imam Ahmad ibn Hanbal", .correct_answer=1, .hint="He founded the Hanafi school of thought."},
+    {.question="Who was the first Muslim woman to lead an army in the history of Islam?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Zainab bint Ali", .correct_answer=1, .hint="She played a significant role in the Battle of Jamal."},
+    {.question="Which caliph is known for compiling the Quran into a single written manuscript?", .answer[0]="Abu Bakr", .answer[1]="Umar ibn al-Khattab", .answer[2]="Uthman ibn Affan", .answer[3]="Ali ibn Abi Talib", .correct_answer=3, .hint="This compilation was done to preserve the authenticity of the Quranic text."},
+    {.question="Who was the first Muslim explorer to reach the coast of China?", .answer[0]="Ibn Battuta", .answer[1]="Ibn Jubayr", .answer[2]="Zheng He", .answer[3]="Ibn Fadlan", .correct_answer=3, .hint="He led several naval expeditions during the 15th century."},
+    {.question="Which battle marked the end of the Rashidun Caliphate and the beginning of the Umayyad Caliphate?", .answer[0]="Battle of Siffin", .answer[1]="Battle of Yarmouk", .answer[2]="Battle of Karbala", .answer[3]="Battle of Nahrawan", .correct_answer=1, .hint="It took place in 657 CE."},
+    {.question="Who was the first female scholar of Hadith in Islamic history?", .answer[0]="Aisha bint Abi Bakr", .answer[1]="Umm Salamah", .answer[2]="Fatimah bint Muhammad", .answer[3]="Rabia al-Adawiyya", .correct_answer=1, .hint="She is known for her extensive knowledge and narrations of Hadith."},
 };
 
 
@@ -124,7 +124,7 @@ ques_t general_knowledge[20]={
 void display_instructions()
 {
     printf("\t\t\t1 - The Game consists of 5 rounds.\n");
-    printf("\t\t\t2 - During Each round you have 3 hints.\n");
+    printf("\t\t\t2 - During Each game you have 3 hints.\n");
     printf("\t\t\t3 - If you use the hint and answer wrong you get minus.\n");
     printf("\t\t\t have fun ^) \n");
 }
@@ -232,13 +232,44 @@ check_t check(int idx, int category, int ans)
         ret = NOT_RIGHT;
     }
     else {
-        if(MATH == category)
-        {
-            if(ans == math[idx].correct_answer)
+            switch(category)
             {
-                ret = RIGHT;
+            case MATH:
+                if(ans == math[idx].correct_answer)
+                {
+                    ret = RIGHT;
+                }
+            break;
+            
+            case HISTORY:
+                if(ans == history[idx].correct_answer)
+                {
+                    ret = RIGHT;
+                }
+            break;
+            
+            case SCIENCE:
+                if(ans == science[idx].correct_answer)
+                {
+                    ret = RIGHT;
+                }
+            break;
+            
+            case GENERAL:
+                if(ans == general_knowledge[idx].correct_answer)
+                {
+                    ret = RIGHT;
+                }
+            break;
+
+            case SPORT:
+                if(ans == sport[idx].correct_answer)
+                {
+                    ret = RIGHT;
+                }
+            break;
+            default:
             }
-        }
     }
     return ret;
 }
@@ -246,8 +277,9 @@ check_t check(int idx, int category, int ans)
 check_t category_check(int category)
 {
     check_t ret=NOT_RIGHT;
-    if(category < ZERO || category > MAX_CATEGORY){
-
+    if(category <= ZERO || category > MAX_CATEGORY)
+    {
+        ret=NOT_RIGHT;
     }
     else 
     {
@@ -259,5 +291,5 @@ check_t category_check(int category)
 
 int gen_number()
 {
-    return rand()%20;
+    return rand()%20 ;
 }

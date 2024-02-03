@@ -5,7 +5,6 @@
 #include <stdlib.h>
 
 
-
 #define MAX_QUESTIONS   20
 #define MAX_CATEGORY    5
 #define MAX_CHOICES     4
@@ -26,10 +25,12 @@ typedef struct{
     char correct_answer;
 }ques_t;
 
+
 typedef enum{
-    NOT_RIGHT,
+    NOT_RIGHT = 0,
     RIGHT
 }check_t;
+
 
 extern ques_t sport[20];
 extern ques_t random[20];
@@ -44,6 +45,6 @@ void display_answers(int idx, int category);
 void display_hint(int idx, int category);
 int gen_number();
 check_t category_check(int category);
-check_t check(int idx, int category, int ans);
+check_t answer_check(int idx, int category, int ans);
 
 #endif
